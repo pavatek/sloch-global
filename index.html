@@ -1,0 +1,1246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+    <title>Beauty IQ</title>
+  </head>
+
+  <body>
+
+
+
+
+    <!-- THE HEADER SECTION STARTS HERE  -->
+
+<header class="header">
+
+  <a href="#" class="logo">
+      <img src="images/logo.jpg" alt=""> 
+  </a>
+  <span class="navbar-brand" href="#">Beauty IQ Cosmetics</span>
+
+  <!-- NAVIGATION BAR STARTS HERE -->
+  <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#products">products</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+      <a href="#blogs">blogs</a>
+  </nav>
+
+  <div class="icons">
+      <!--div class="fas fa-search" id="search-btn"></div-->
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+  </div>
+
+  <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+  </div>
+
+  <!-- ITEMS IN CART ALREADY -->
+  <div class="cart-items-container">
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-1.png" alt="">
+          <div class="content">
+              <h3>cart item 01</h3>
+              <div class="price">₦2500/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-2.png" alt="">
+          <div class="content">
+              <h3>cart item 02</h3>
+              <div class="price">₦2500/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-3.png" alt="">
+          <div class="content">
+              <h3>cart item 03</h3>
+              <div class="price">₦2500/-</div>
+          </div>
+      </div>
+      <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-4.png" alt="">
+          <div class="content">
+              <h3>cart item 04</h3>
+              <div class="price">₦2500/-</div>
+          </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+  </div>
+
+</header>
+
+    <!-- THE HEADER SECTION ENDS HERE -->
+
+
+    <!-- C A R O U S E L SECTION STARTS HERE -->
+    <div id="carouselExampleControls" style="margin-top: 3rem;" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/home-bg-1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!--h1>Beauty IQ</h1>
+            <h3>Professional Whitening Lotion</h3-->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home-bg-2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!--h1>Beauty IQ</h1>
+            <h3>Professional Whitening Lotion</h3-->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home-bg-3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!--h1>Beauty IQ</h1>
+            <h3>Professional Whitening Lotion</h3-->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home-bg-4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!--h1>Beauty IQ</h1>
+            <h3>Professional Whitening Lotion</h3-->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+<!-- ABOUT SECTION STARTS HERE  -->
+<section class="about" id="about">
+
+  <h1 class="heading"> <span>about</span> us </h1>
+
+  <div class="row">
+
+      <div class="image">
+          <img src="images/beauty.png" alt="">
+      </div>
+
+      <div class="content">
+          <h3>what makes us special?</h3>
+          <p>
+            We are manufacturers of carefully genuine cruelty free cosmetics products.
+            At Beauty IQ Cosmetics we understand the impact your beauty and appearance plays on your confidence, that is why we go out of our way to bring you the best products at all times.            
+          </p>
+          <p>Our skin care products are carefully designed under strict conditions to ensure that what our customers get is an effortlessly glowing skin, which means that you can wear less make-up and still be full of confidence:</p>            
+          <a href="#products" class="btn">Shop Now</a>
+      </div>
+
+  </div>
+
+</section>
+<!-- ABOUT SECTION ENDS HERE -->
+
+
+<!-- PRODUCTS SECTION STARTS HERE -->      
+<section class="products" id="products">
+
+  <h1 class="heading"> our <span>products</span> </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/product-1.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Carrot Oil Whitening Care Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/product-2.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Professional Whitening Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/product-3.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Whitening Lotion GOLD</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/product-4.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Beauty IQ Carrot Oil</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/product-5.png" alt="">
+      </div>
+      <div class="content">
+          <h3>Beauty IQ Sweet Almond Oil</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/product-6.png" alt="">
+      </div>
+      <div class="content">
+          <h3>Beauty IQ Complete Care Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+<!-- PRODUCTS SECTION ENDS HERE -->      
+
+
+<!-- ANOTHER PRODUCTS SECTION STARTS HERE -->      
+<section class="products" id="products">
+
+    <h1 class="heading"> other <span>products</span> </h1>
+  
+    <div class="box-container">
+  
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+              <img src="images/use/1.jpg" alt="">
+          </div>
+          <div class="content">
+              <h3>QEI+ Face and Neck Cream</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₦3500 <span>₦5000</span></div>
+          </div>
+      </div>
+  
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+              <img src="images/use/2.jpg" alt="">
+          </div>
+          <div class="content">
+              <h3>QEI Extreme Shine Pack</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₦3500 <span>₦5000</span></div>
+          </div>
+      </div>
+  
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+              <img src="images/use/3.jpg" alt="">
+          </div>
+          <div class="content">
+              <h3>QEI+ Extreme Shine GOLD</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₦3500 <span>₦5000</span></div>
+          </div>
+      </div>
+  
+      <div class="box">
+          <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+              <img src="images/use/4.jpg" alt="">
+          </div>
+          <div class="content">
+              <h3>QEI+ Extreme Shine Carrot</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₦3500 <span>₦5000</span></div>
+          </div>
+        </div>
+      
+      <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/5.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI Privilege Care Pack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+  
+      <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/6.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI Active Performance Multi-Action</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦20,000 <span>₦25,000</span></div>
+        </div>
+      </div>
+      
+      <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/7.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI Oriental Care Pack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/8.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI Oriental Complete Care Pack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/9.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI OR Innovative</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/10.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>QEI Active Care Pack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/11.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>QEI Privilege Complete Care Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/12.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>QEI Active Complete Care Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/13.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Supreme White Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/14.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>White Luxury Paris</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/15.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>55 H + Complete Car Pack</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/16.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>55 H+ Extreme</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/17.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Francoise Bedon Carrot</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/18.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Francoise Bedon Caviar</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/19.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Francoise Bedon Supreme</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/20.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Francoise Bedon Homme</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/21.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Francoise Bedon Excellence</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/22.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Francoise Bedon Royal</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/23.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Ellen Beauty Family Lotion</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/24.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Ellen Beauty Care Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/25.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Ellen Beauty Carrot Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/26.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Ellen Beauty Gold Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/27.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Ellen Beauty Papaya Lotion</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/28.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Ellen Beauty Gold Soap</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/29.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Darmagrow Complete Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/30.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Darmagrow Complete Care Pack</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="image">
+            <img src="images/use/31.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Darmagrow Activator Gel</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₦3500 <span>₦5000</span></div>
+        </div>
+      </div>
+    
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/32.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Darmagrow Lock and Twist</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦3500 <span>₦5000</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+          <img src="images/use/33.jpg" alt="">
+      </div>
+      <div class="content">
+          <h3>Darmagrow Hair Removal</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₦20,000 <span>₦25,000</span></div>
+      </div>
+    </div>
+
+
+    </div>
+  
+  </section>
+  <!-- ANOTHER PRODUCTS SECTION ENDS HERE-->      
+  
+
+<!-- BLOG SECTION STARTS HERE  -->
+<section class="blogs" id="blogs">
+
+  <h1 class="heading"> other <span>features</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <div class="image">
+              <img src="images/blog-1.jpg" alt="">
+          </div>
+          <div class="content">
+              <a href="#" class="title">keep your skin glowing</a>
+              <span>by admin / 21st November, 2021</span>
+              <p>
+                  The best foundation for a good make up is a glowing skin. When your skin is in good condition your make-up won't need to be heavy.
+              </p>
+              <a href="#products" class="btn">order now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="image">
+              <img src="images/blog-2.jpg" alt="">
+          </div>
+          <div class="content">
+              <a href="#" class="title">Royalty is skin deep</a>
+              <span>by admin / 29th November, 2021</span>
+              <p>
+                  At Beauty IQ Cosmetics, we understand the impact of a good skin in your beauty and confidence, so we take extra care to offer the best beauty products at affordable prices.
+              </p>
+              <a href="#products" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <div class="image">
+              <img src="images/blog-3.jpg" alt="">
+          </div>
+          <div class="content">
+              <a href="#" class="title">Your skin is your pride</a>
+              <span>by admin / 12th December, 2021</span>
+              <p>
+                  At Beauty IQ Cosmetics, we take pride in all our products because we understand the needs and desires people have for thei skin and we strive to help them.
+              </p>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+<!-- BLOG SECTION ENDS HERE -->
+
+
+
+<!-- REVIEW SECTION STARTS HERE  -->
+<section class="review" id="review">
+
+  <h1 class="heading"> customer's <span>review</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote">
+          <p>Beauty IQ Carrot Oil is a great product. I and my wife use it, and I can testify that I have seen positive improvement in our skin appearance.</p>
+          <img src="images/pic-1.jpg" class="user" alt="">
+          <h3>Perpetual</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote">
+          <p>Beauty IQ Professional Whitening lotion is an amazing product, I used it and introduced it to my friend and we can say it is of a great quality and gives great result.</p>
+          <img src="images/pic-2.png" class="user" alt="">
+          <h3>Jenny 2</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+      
+      <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote">
+          <p>Beauty IQ Carrot oil is a very nice product. I use it to mix my lotions, and the result has been exceptional. </p>
+          <img src="images/pic-3.jpg" class="user" alt="">
+          <h3>Lizzy B</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+<!-- REVIEW SECTION ENDS HERE -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="share">
+      <a href="https://www.facebook.com/Beauty-IQ-Cosmetics/" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/beautyiq_cosmetics/" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+  </div>
+
+  <div class="links">
+      <a href="#">home</a>
+      <a href="#">about</a>
+      <a href="#">menu</a>
+      <a href="#">products</a>
+      <a href="#">review</a>
+      <a href="#">contact</a>
+      <a href="#">blogs</a>
+  </div>
+
+  <div class="credit">created by <span>Pavatek Global Resources</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
